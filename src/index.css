@@ -1,13 +1,90 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app {
+  background-color: rgb(12, 12, 12);
+  transition: 0.4s ease-out;
+  height: 600px;
+  width: 30%;
+  margin: 100px auto;
+  -webkit-transition: 0.4s ease-out;
+  -moz-transition: 0.4s ease-out;
+  -ms-transition: 0.4s ease-out;
+  -o-transition: 0.4s ease-out;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 2px 2px 2px rgb(41, 41, 41),
+    -2px -2px -2px rgba(245, 245, 245, 0.418);
+}
+
+main {
+  height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  margin: auto;
+  display: block;
+  width: 90%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+}
+
+.search-box .search-bar:focus {
+  background-color: white;
+}
+
+.location-box .location {
+  color: aliceblue;
+  font-size: 32px;
+  text-align: center;
+}
+
+.location-box .date {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+  color: aliceblue;
+}
+
+.weather-box .temperature {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgb(245, 245, 245, 0.2);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 15px 25px;
+  box-shadow: rgb(0, 0, 0, 0.2);
+}
+.weather-box .weather {
+  font-size: 30px;
 }
