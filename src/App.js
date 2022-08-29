@@ -1,5 +1,5 @@
-import { type } from "@testing-library/user-event/dist/type";
-import react, { useState } from "react";
+
+import React, { useState } from "react";
 const api={
   key:"f95d8c4568d90eadee88612d436e2191",
   base:"https://api.openweathermap.org/data/2.5/"
